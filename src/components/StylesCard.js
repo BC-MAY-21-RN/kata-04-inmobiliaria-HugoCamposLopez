@@ -3,28 +3,37 @@ import { StyleSheet } from "react-native";
  const Styles = StyleSheet.create({
     image:{
         
-        width: 100,
-        height: 100,
-        marginTop: 20
-
+        width: 120,
+        height: 120,
+        marginTop:5,
+        marginBottom:20,
+        borderRadius: 10,
+        marginLeft: 10
         
     },
     TextoCard:{
-        fontSize: 15,
-        paddingLeft: 15
+        fontSize: 18, 
+        fontFamily:'POPPINS-BLACK',
+        paddingLeft: 10,
+        color: 'black'
        
     },
     ViewCard:{
-
         textAlign: "right",
-        fontSize: 100,
+    },
+    ViewRooms:{
+        display: "flex",
+        flexDirection: "row"
         
     },
     container:{
         display: "flex",
-       flexDirection: 'row',
-       borderColor: "white",
-       borderBottomWidth: 1,
+        flexDirection: 'row',
+        borderColor: "black",
+        borderBottomWidth: 1,
+        backgroundColor: '#f5fdff',
+        marginTop: 10
+
     }
 })
 

@@ -1,23 +1,15 @@
 import React from 'react'
-import { View, Text, SafeAreaView, ScrollView,Image } from 'react-native'
-import RecipeInmuebles from './src/models/RecipeInmuebles'
-import Card from './src/components/Card'
-import data from './src/helpers/Inmuebles'
+import MainNavigator from './src/Navigation/Navigation.js'
+import {NavigationContainer} from '@react-navigation/native'
 
 
 
-
-const App = (props: Props) => {
-  const renderRecipe = data?.map((data, index)=>{
-      return <Card key={`inmuebles-${index}`} inmueble={data}/>
-    
-  })
+const App = () => {
 
   return (
-    
-    <SafeAreaView>
-      <ScrollView>{renderRecipe}</ScrollView>
-    </SafeAreaView>
+    <NavigationContainer>
+      <MainNavigator/>
+    </NavigationContainer>
   )
 }
 
