@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Los gavilanes",
+        "adress": "Av. De la Soledad #123",
+        "rooms": 3,
+        "bathrooms": 2,
+        "surface": "220 ft^2",
+        "cost": 2300,
+        "rating": 0,
+        "love": false,
+        "imageURL": "https://www.bienesonline.com/mexico/photos/casa-en-renta-metepec-CAR2573761581359765-271.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Las gardenias",
+        "adress": "Av. Miguel de la Marid #456",
+        "rooms": 2,
+        "bathrooms": 1,
+        "surface": "180 ft^2",
+        "cost": 1500,
+        "rating": 0,
+        "love": false,
+        "imageURL": "https://propiedadescom.s3.amazonaws.com/files/292x200/81bcb1400c192cfe6b2190af088ffb7e.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Bugambilia",
+        "adress": "Calle Zapotlan #783",
+        "rooms": 3,
+        "bathrooms": 1,
+        "surface": "225 ft^2",
+        "cost": 2000,
+        "rating": 0,
+        "love": false,
+        "imageURL": "https://img10.naventcdn.com/avisos/18/00/58/01/23/69/720x532/206584809.jpg"
+    },
+    {
+        "id": 4,
+        "name": "La Carreta",
+        "adress": "Calle Jesús #1100",
+        "rooms": 1,
+        "bathrooms": 1,
+        "surface": "150 ft^2",
+        "cost": 1300,
+        "rating": 0,
+        "love": false,
+        "imageURL": "https://www.sipachuca.com/inventario/flor-de-gayomba-130/01.JPG"
+    },
+    {
+        "id": 5,
+        "name": "El mirador",
+        "adress": "Calle Eulogio Parra #25-A",
+        "rooms": 2,
+        "bathrooms": 1,
+        "surface": "185 ft^2",
+        "cost": 1800,
+        "rating": 0,
+        "love": false,
+        "imageURL": "https://imganuncios.mitula.net/casa_en_renta_jarachina_norte_4030062613052484373.jpg"
+    }
+]
