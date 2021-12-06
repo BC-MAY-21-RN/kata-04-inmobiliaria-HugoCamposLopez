@@ -1,15 +1,12 @@
 import React from 'react'
-import MainNavigator from './src/Navigation/Navigation.js'
-import {NavigationContainer} from '@react-navigation/native'
+import MainScreen from './src/Screens/MainScreen.js'
 
 
 
 const App = () => {
 
   return (
-    <NavigationContainer>
-      <MainNavigator/>
-    </NavigationContainer>
+    <MainScreen/>
   )
 }
 

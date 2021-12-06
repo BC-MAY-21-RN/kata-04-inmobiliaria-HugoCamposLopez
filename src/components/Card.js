@@ -1,19 +1,13 @@
 import React from 'react'
 import { Text, TouchableOpacity, View, Image } from 'react-native'
-import RecipeInmuebles from '../models/RecipeInmuebles.js'
 import StylesCard from './StylesCard'
 import Ionicon from 'react-native-vector-icons/Ionicons';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons'
 
 
-interface Props{
-    inmueble: RecipeInmuebles,
-    /* onClick: (inmueble: RecipeInmuebles) => void; */
-  }
 
 
-
-const Card = (props: Props) => {
+const Card = (props) => {
     const {inmueble} = props
     const { name, adress, rooms, bathrooms, surface, cost, rating, imageURL } = inmueble;
     return (

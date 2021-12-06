@@ -5,7 +5,7 @@ import data from '../helpers/Inmuebles.json'
 import Styles from './StylesMainScreen'
 
 
-const MainScreen = (props: Props) => {
+const MainScreen = () => {
     const renderRecipe = data?.map((data, index)=>{
         return <Card key={`inmuebles-${index}`} inmueble={data}/>
       
