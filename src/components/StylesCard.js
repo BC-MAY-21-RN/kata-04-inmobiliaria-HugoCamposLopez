@@ -1,6 +1,21 @@
 import { StyleSheet } from "react-native";
 
- const Styles = StyleSheet.create({
+const Styles = StyleSheet.create({
+     container:{
+         display: "flex",
+         flexDirection: 'row',
+         borderColor: "black",
+         backgroundColor: '#f5fdff',
+         marginTop: 18,
+         borderRadius: 10,
+         width: "98%",
+         marginLeft: "1%",
+     },
+
+     ViewCard:{
+         textAlign: "right",
+     },
+
     image:{
         
         width: 120,
@@ -11,29 +26,67 @@ import { StyleSheet } from "react-native";
         marginLeft: 10
         
     },
-    TextoCard:{
-        fontSize: 18, 
-        fontFamily:'POPPINS-BLACK',
+
+    NameCard:{
+        fontSize: 22,
+        letterSpacing: 1, 
         paddingLeft: 10,
-        color: 'black'
-       
+        color: 'black',
+        fontWeight: '500',
     },
-    ViewCard:{
-        textAlign: "right",
+    
+    AdressCard:{
+        fontSize: 15, 
+        paddingLeft: 10,
+        color: 'black',
+        fontWeight: '300',
+        paddingTop: 10,
     },
+
     ViewRooms:{
         display: "flex",
         flexDirection: "row"
+    },
+   
+    bedCard:{
+        fontSize: 20,
+        paddingLeft: 12,
+        color: 'black',
+        fontWeight: '400',
+        alignItems: "center",
+        paddingTop: 10,
+    },
+    bathCard:{
+        fontSize: 20,
+        paddingLeft: 25,
+        color: 'black',
+        fontWeight: '400',
+        alignItems: "center",
+        paddingTop: 10,
+    },
+    surfCard:{
+        fontSize: 20,
+        paddingLeft: 25,
+        color: 'black',
+        fontWeight: '400',
+        alignItems: "center",
+        paddingTop: 10,
+    },
+    priceCard:{
+        color: 'black',
+        paddingTop: 10,
+        paddingLeft: 12,
+        fontWeight: '700',
+        fontSize: 18
+    },
+    favCard:{
+        paddingTop: 10,
         
     },
-    container:{
+    pricefavContainer:{
         display: "flex",
-        flexDirection: 'row',
-        borderColor: "black",
-        borderBottomWidth: 1,
-        backgroundColor: '#f5fdff',
-        marginTop: 10
-
+        flexDirection: "row",
+        justifyContent: "space-between"
     }
 })
 
